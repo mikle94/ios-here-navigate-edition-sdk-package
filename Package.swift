@@ -21,7 +21,11 @@ let package = Package(
         .target(
             name: "ios-here-navigate-edition-sdk-package",
             dependencies: ["heresdk"]),
-        .binaryTarget(name: "heresdk", path: "heresdk.xcframework"),
+        .binaryTarget(
+            name: "heresdk",
+            url: "https://github.com/wendyliga/compiled-framework-spm/releases/download/0.0.1/Logging.xcframework.zip",
+            checksum: "fd90fb5c2d0b810940427b27a6a674edf926ee3a2fa9787aadc771af05fcea37"
+        ),
         .testTarget(
             name: "ios-here-navigate-edition-sdk-packageTests",
             dependencies: ["ios-here-navigate-edition-sdk-package"]),
