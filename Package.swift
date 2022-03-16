@@ -23,8 +23,8 @@ let package = Package(
             dependencies: ["heresdk"]),
         .binaryTarget(
             name: "heresdk",
-            url: "https://github.com/valexahhl/compiled-framework-spm/releases/download/0.1/heresdk-navigate-ios-4.10.4.0.7956.zip",
-            checksum: "059b81db97562c6c2f12852e439fbca13f9bd174c4a9712ab3e48f6cad7be142"
+            url: "https://github.com/mikle94/ios-here-navigate-edition-sdk-package/releases/download/1.0.0/heresdk-navigate-ios-4.10.4.0.7956.zip",
+            checksum: "c564a2456cf4f3bfab20938ff4a07b767593aead1c69a4034d0ac3bc3ca2bfdb"
         ),
         .testTarget(
             name: "ios-here-navigate-edition-sdk-packageTests",
