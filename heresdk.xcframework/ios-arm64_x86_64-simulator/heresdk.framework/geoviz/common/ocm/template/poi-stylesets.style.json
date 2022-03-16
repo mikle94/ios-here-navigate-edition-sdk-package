@@ -1,1 +1,0 @@
-{"styles": [{"id": "ocm-pois", "styleSet": "ocm_pois", "extends": "pois", "technique": "icontext", "description": "OCM POIs with PDS category", "attr": {"z-order": ["+", ["-", 100000, ["*", ["ref", "poiLookupPriority"], 10]], ["get", "TQS"]]}}]}

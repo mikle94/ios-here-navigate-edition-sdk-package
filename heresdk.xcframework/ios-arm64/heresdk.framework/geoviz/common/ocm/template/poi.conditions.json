@@ -1,1 +1,0 @@
-{"definitions": {"Is.PoiLayer": ["any", ["==", ["get", "$layer"], "pois"], ["==", ["get", "$layer"], "Annotation"]]}}
