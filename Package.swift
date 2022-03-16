@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ios-here-navigate-edition-sdk-package",
-            targets: ["ios-here-navigate-edition-sdk-package", "heresdk"]),
+            targets: ["ios-here-navigate-edition-sdk-package"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ios-here-navigate-edition-sdk-package",
-            dependencies: []),
+            dependencies: ["heresdk"]),
         .binaryTarget(name: "heresdk", path: "heresdk.xcframework"),
         .testTarget(
             name: "ios-here-navigate-edition-sdk-packageTests",
